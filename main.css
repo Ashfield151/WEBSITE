@@ -1,0 +1,28 @@
+
+*{
+    color: white
+}
+*{
+text-align: center
+}
+* {
+    box-sizing: border-box;
+    padding: 25px 50px 75px;
+   }
+body{
+    background-image: url('https://media.giphy.com/media/ixvKqzJFAg2DC/giphy.gif');
+    background-size: cover;
+
+    
+    
+    
+    height: 50vh;
+    padding:0;
+    margin:0;
+}
+.center {
+    text-align: center;
+   }
+*{
+    text-align: center;
+}
