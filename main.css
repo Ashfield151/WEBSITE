@@ -1,28 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock&display=swap');
 
 *{
-    color: white
+    color: white;
+    font-family: 'Overlock', cursive;
+    font-size: 20px;
+    
+}
+.navbar{
+  padding:50px, 50px, 50px;
 }
 *{
-text-align: center
+text-align: center;
+color: white;
+
+
+
 }
+
 * {
     box-sizing: border-box;
-    padding: 25px 50px 75px;
+    
    }
 body{
-    background-image: url('https://media.giphy.com/media/ixvKqzJFAg2DC/giphy.gif');
+    background-image: url('https://media.giphy.com/media/96iT9TjvoqcA8/giphy.gif');
     background-size: cover;
-
-    
-    
-    
-    height: 50vh;
-    padding:0;
-    margin:0;
+    box-sizing: border-box;
+    padding: 30px 30px 30px;
+    height: 100vh;
+    padding:10px;
+    margin:80px;
 }
 .center {
     text-align: center;
+    /* position: fixed; Make it stick, even on scroll */
+  overflow: auto;
    }
 *{
     text-align: center;
 }
+#example2 {
+    box-sizing: border-box;
+    width: 500px;
+    height: 150px;
+    padding: 20px;  
+    border: 8px solid rgb(185, 180, 180);
+}
+.centerbox {
+        margin: auto;
+        width: 50%;
+        border: 3px; 
+        padding: 10px;
+}
+      
+      body, html {
+        height: 100%;
+    }
+    
+
+    
+  
+   .button {
+    background-color: grey; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  /* .box {
+    color:white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding:15px;
+    width: 400px;
+    } */
+    .questions{
+      text-align: center;
+      display: flex
+    }
